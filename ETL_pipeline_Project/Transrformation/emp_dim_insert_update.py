@@ -31,9 +31,9 @@ def join_and_detect_new_or_changed_rows():
     ################################### Connect to DWH ###################################
     # Use your Snowfake user credentials to connect
     conn = connect(
-            user='YOUSRA',
-            password='23115119Salwa',
-            account='cbhqekm-bf30825'
+            user='____',
+            password='*****',
+            account='#####'
         )
     print("Connected to Snowflake DWH succesfully")
     
