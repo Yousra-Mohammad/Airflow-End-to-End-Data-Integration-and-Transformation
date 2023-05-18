@@ -1,7 +1,8 @@
 # Airflow-End-to-End-Data-Integration-and-Transformation
 
 ## Overview:
-This project demonstrates a comprehensive data integration and transformation pipeline using Apache Airflow, AWS (RDS,S3), and Snowflake. It showcases the extraction of data from AWS RDS PostgreSQL, transformation using Python Pandas, and loading the transformed data into Snowflake as a data warehouse. The project also implements Slowly Changing Dimension (SCD) Type 2 to capture historical changes in employee wages.
+This project demonstrates a comprehensive data integration and transformation pipeline using Apache Airflow, AWS (RDS,S3), and Snowflake. It demonstrates the automation of data extraction from AWS RDS PostgreSQL, transformation using Python Pandas, and loading the transformed data into Snowflake as a data warehouse, streamlining the process. 
+The project also implements Slowly Changing Dimension (SCD) Type 2 to capture historical changes in employee wages.
 
 ## Features:
 - Data extraction from AWS RDS PostgreSQL: Two tables, "salaries" from the "finance" schema and "employee_details" from the "HR" schema, are extracted as data sources.
